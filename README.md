@@ -19,3 +19,9 @@ In the database they are formally named as ```discord_id```, ```token_count```, 
 3. Subtract amount from token balance `subtract_tokens(user_id,amount)` 
 4. Set token balance to specific integer `set_tokens(user_id,amount)` 
 5. Set premium membership status `set_premium(user_id,boolean_bit)` 
+6. Get User Information/Values `get_user(user_id)`
+
+# Keys Table
+1. Generate code `generate_token(token,amount,max_uses)`
+2. Delete code `delete_token(token)`
+3. Get key information `key_stats(token)`
