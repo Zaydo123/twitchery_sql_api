@@ -7,4 +7,6 @@ First, if the database doesn't exist yet, we need to call the ```create_db()``` 
 After calling ```create_db()```, you need to connect to the database via the ```connect()``` function.
 
 # User Table
-the user table stores information about each registered user. This includes information in the order of ```Discord ID``` *(stored as string)*, ```Token Balance``` *(integer)*, and ```Premium Status``` *(bit)*
+the user table stores information about each registered user. This includes information in the order of **Discord ID** *(stored as string)*, **Token Balance** *(integer)*, and **Premium Status** *(bit)*
+
+In the database they are formally named as ```discord_id```, ```token_count```, and ```premium```.
