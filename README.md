@@ -12,14 +12,13 @@ the user table stores information about each registered user. This includes info
 In the database they are formally named as ```discord_id```, ```token_count```, and ```premium```.
 
 ## User Table Functions
-**1. Create a new user object `new_user(user_id,tokens,is_premium)`**
+** 1. Create a new user object `new_user(user_id,tokens,is_premium)`**
+```tokens``` is the amount of tokens the user will start of with, and ```is_premium``` and ```boolean_bit``` are bits representing whether or not the user is a premium member. 1 = yes, 0 = no
 
-```tokens``` is the amount of tokens the user will start of with, and ```is_premium``` is a bit representing whether or not the user is a premium member. 1 = yes, 0 = no
-**2. Add amount to token balance `add_tokens(user_id,amount)`
+** 2. Add amount to token balance `add_tokens(user_id,amount)` **
 
-**3. Subtract amount from token balance `subtract_tokens(user_id,amount)`
+** 3. Subtract amount from token balance `subtract_tokens(user_id,amount)` **
 
-**4. Set token balance to specific integer `set_tokens(user_id,amount)`
+** 4. Set token balance to specific integer `set_tokens(user_id,amount)` **
 
-**5. Set premium membership status `set_premium(user_id,boolean_bit)` 
-* for `boolean_bit`, 0 = no membership, 1 = membership *
+** 5. Set premium membership status `set_premium(user_id,boolean_bit)` **
