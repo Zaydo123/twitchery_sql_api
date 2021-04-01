@@ -22,6 +22,7 @@ In the database they are formally named as ```discord_id```, ```token_count```, 
 6. Get User Information/Values `get_user(user_id)`
 
 # Keys Table
+Stores key name *string*, followers amount *integer*, uses *integer*, and maximum amount of uses *integer*.
 1. Generate code `generate_token(token,amount,max_uses)`
 2. Delete code `delete_token(token)`
 3. Get key information `key_stats(token)`
