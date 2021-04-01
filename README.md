@@ -21,4 +21,4 @@ In the database they are formally named as ```discord_id```, ```token_count```, 
 
 **4. Set token balance to specific integer `set_tokens(user_id,amount)`
 
-**5. Set premium membership status `set_premium(user_id,boolean_bit)`** *for `boolean_bit`, 0 = no membership, 1 = membership
+**5. Set premium membership status `set_premium(user_id,boolean_bit)`** * for `boolean_bit`, 0 = no membership, 1 = membership
